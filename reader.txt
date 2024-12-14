@@ -387,7 +387,7 @@ srvrs.Activated:Connect(function()
 	pcall(function()
 		game.CoreGui["ServerBrowser"]:Destroy()
 	end)
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Altnum1738/dbu/main/servers'))()
+	loadstring(game:HttpGet('https://gist.githubusercontent.com/JellyJrl/894aec3c4cbf7a698339515656be7af9/raw/serverlist'))()
 end)
 local scorner = Instance.new("UICorner")
 scorner.Parent = srvrs
