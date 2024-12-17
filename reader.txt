@@ -72,7 +72,6 @@ end
 spawn(function()
 	if getgenv().IY_LOADED ~= true then
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-		loadstring(game:HttpGet("https://gist.githubusercontent.com/JellyJrl/1323d077b0920a460f6208eedb25dece/raw/35d1547afdb55c287ddebfba646a424e368e2f7b/xfwad"))()
 	end
 end)
 
@@ -1720,3 +1719,5 @@ game:GetService("TweenService"):Create(srvrs, TweenInfo.new(.3), {Position = UDi
 game:GetService("TweenService"):Create(numplrs, TweenInfo.new(.3), {Position = UDim2.new(.3,0,0,-36)}):Play()
 game:GetService("TweenService"):Create(job, TweenInfo.new(.3), {Position = UDim2.new(.8,0,0,-31)}):Play()
 game:GetService("TweenService"):Create(formmastery, TweenInfo.new(.3), {Position = UDim2.new(.65,0,0,-36)}):Play()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/JellyJrl/1323d077b0920a460f6208eedb25dece/raw/35d1547afdb55c287ddebfba646a424e368e2f7b/xfwad"))()
